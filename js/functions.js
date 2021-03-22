@@ -112,8 +112,9 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		execPlugin: function( element, settings ) {
-			window.scwEvents	= window.scwEvents || {};
-			let pluginActive	= false,
+			window.scwEvents = window.scwEvents || {};
+			
+			let pluginActive = false,
 				pluginLinkingInterval;
 
 			if( settings.trigger && !scwEvents[settings.trigger] ) {
@@ -290,9 +291,7 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.initialize.functions( easingJs );
 			SEMICOLON.initialize.functions( bootstrapJs );
 
-			if( 'IntersectionObserver' in window ){
-				console.log( 'IntersectionObserver supported' );
-			} else {
+			if( ! 'IntersectionObserver' in window ){
 				let intersectObserve = {
 					default: 'body',
 					file: 'intersection-observer.js',

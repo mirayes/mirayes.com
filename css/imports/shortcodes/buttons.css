@@ -36,7 +36,7 @@
   width: 16px;
   text-align: center;
 }
-.button.text-right i {
+.button.text-end i {
   margin: 0 0 0 5px;
 }
 body:not(.device-touch) .button {
@@ -68,7 +68,7 @@ body:not(.device-touch) .button {
 .button-mini i {
   margin-right: 3px;
 }
-.button-mini.text-right i {
+.button-mini.text-end i {
   margin: 0 0 0 3px;
 }
 .button-small {
@@ -79,7 +79,7 @@ body:not(.device-touch) .button {
 .button-small i {
   margin-right: 4px;
 }
-.button-small.text-right i {
+.button-small.text-end i {
   margin: 0 0 0 4px;
 }
 .button-large {
@@ -96,7 +96,7 @@ body:not(.device-touch) .button {
 .button-xlarge i {
   margin-right: 8px;
 }
-.button-xlarge.text-right i {
+.button-xlarge.text-end i {
   margin: 0 0 0 8px;
 }
 .button-desc {
@@ -123,7 +123,7 @@ body:not(.device-touch) .button {
   text-align: center;
   margin-right: 12px;
 }
-.button-desc.text-right i {
+.button-desc.text-end i {
   margin: 0 0 0 12px;
 }
 .button-desc div {
@@ -197,14 +197,14 @@ body:not(.device-touch) .button {
 .button.button-reveal.button-border i {
   top: -2px;
 }
-.button.button-reveal.text-right i {
+.button.button-reveal.text-end i {
   left: auto;
   right: -32px;
 }
 .button.button-reveal.button-3d i, .button.button-reveal.button-rounded i {
   border-radius: 3px 0 0 3px;
 }
-.button.button-reveal.button-3d i.text-right i, .button.button-reveal.button-rounded i.text-right i {
+.button.button-reveal.button-3d i.text-end i, .button.button-reveal.button-rounded i.text-end i {
   border-radius: 0 3px 3px 0;
 }
 .button.button-reveal span {
@@ -220,14 +220,14 @@ body:not(.device-touch) .button {
   left: -22px;
   width: 22px;
 }
-.button.button-reveal.button-mini.text-right i {
+.button.button-reveal.button-mini.text-end i {
   left: auto;
   right: -22px;
 }
 .button.button-reveal.button-mini:hover span {
   left: 11px;
 }
-.button.button-reveal.button-mini.text-right:hover span {
+.button.button-reveal.button-mini.text-end:hover span {
   left: -11px;
 }
 .button.button-reveal.button-small {
@@ -238,14 +238,14 @@ body:not(.device-touch) .button {
   left: -26px;
   width: 26px;
 }
-.button.button-reveal.button-small.text-right i {
+.button.button-reveal.button-small.text-end i {
   left: auto;
   right: -26px;
 }
 .button.button-reveal.button-small:hover span {
   left: 13px;
 }
-.button.button-reveal.button-small.text-right:hover span {
+.button.button-reveal.button-small.text-end:hover span {
   left: -13px;
 }
 .button.button-reveal.button-large {
@@ -256,14 +256,14 @@ body:not(.device-touch) .button {
   left: -38px;
   width: 38px;
 }
-.button.button-reveal.button-large.text-right i {
+.button.button-reveal.button-large.text-end i {
   left: auto;
   right: -38px;
 }
 .button.button-reveal.button-large:hover span {
   left: 19px;
 }
-.button.button-reveal.button-large.text-right:hover span {
+.button.button-reveal.button-large.text-end:hover span {
   left: -19px;
 }
 .button.button-reveal.button-xlarge {
@@ -274,27 +274,27 @@ body:not(.device-touch) .button {
   left: -44px;
   width: 44px;
 }
-.button.button-reveal.button-xlarge.text-right i {
+.button.button-reveal.button-xlarge.text-end i {
   left: auto;
   right: -44px;
 }
 .button.button-reveal.button-xlarge:hover span {
   left: 22px;
 }
-.button.button-reveal.button-xlarge.text-right:hover span {
+.button.button-reveal.button-xlarge.text-end:hover span {
   left: -22px;
 }
 .button.button-reveal:hover i {
   left: 0;
 }
-.button.button-reveal.text-right:hover i {
+.button.button-reveal.text-end:hover i {
   left: auto;
   right: 0;
 }
 .button.button-reveal:hover span {
   left: 16px;
 }
-.button.button-reveal.text-right:hover span {
+.button.button-reveal.text-end:hover span {
   left: -16px;
 }
 

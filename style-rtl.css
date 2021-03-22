@@ -231,6 +231,11 @@ Header
 		margin-left: 0;
 	}
 
+	.sub-menu-container {
+		left: auto;
+		right: 0;
+	}
+
 	.sub-menu-container .sub-menu-container {
 		right: 100%;
 		left: auto;
@@ -888,6 +893,13 @@ body:not(.stretched) .slider-parallax .slider-inner {
 	left: 16px;
 }
 
+/* Flex Slider
+-----------------------------------------------------------------*/
+
+.flexslider {
+	direction: ltr;
+}
+
 /* Flex Slider - Pagination & Thumbs
 -----------------------------------------------------------------*/
 .flex-control-nav {
@@ -924,6 +936,10 @@ body:not(.stretched) .slider-parallax .slider-inner {
 
 /* Flex Slider: Thumbs
 -----------------------------------------------------------------*/
+.flex-control-nav.flex-control-thumbs {
+	direction: rtl;
+}
+
 .flex-control-nav.flex-control-thumbs {
 	justify-content: right;
 	margin: 2px 0 -2px -2px;
